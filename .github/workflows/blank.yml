@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Check required files
-        run: 
+        run: |
           test -f README.md
           test -f CLAUDE.md
 
